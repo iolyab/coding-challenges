@@ -1,0 +1,41 @@
+.tableLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 500px;
+}
+
+td,
+th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+th {
+  vertical-align: top;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.usersNum {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+}

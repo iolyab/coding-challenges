@@ -1,0 +1,66 @@
+.formGrid {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.tripType {
+  display: flex;
+  flex-direction: column;
+}
+
+.flightInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cityInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.subTitle {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.passengers {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.submit {
+  border-style: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+
+  width: 150px;
+
+  &:hover {
+    background-color: rgb(68, 68, 255);
+    cursor: pointer;
+  }
+}
