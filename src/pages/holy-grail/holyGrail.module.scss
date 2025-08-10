@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 100px;
+}
+
+.mainLayout {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+header {
+  background-color: orangered;
+}
+
+.gridNav {
+  background-color: orange;
+}
+
+main {
+  background-color: bisque;
+}
+
+aside {
+  background-color: yellow;
+}
+
+footer {
+  background-color: gray;
+}

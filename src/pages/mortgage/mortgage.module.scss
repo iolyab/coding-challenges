@@ -1,0 +1,22 @@
+.formLayout {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.submitButton {
+  width: 80px;
+  cursor: pointer;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.result {
+  margin: 0px;
+}

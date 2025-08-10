@@ -1,0 +1,34 @@
+.tabsLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tabButton {
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 8px 10px;
+  background-color: white;
+
+  &:focus,
+  &.active {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+    font-weight: bold;
+  }
+
+  &:hover:not(:focus) {
+    cursor: pointer;
+    color: blueviolet;
+    border-color: blueviolet;
+  }
+}
